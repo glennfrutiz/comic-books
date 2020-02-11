@@ -1,0 +1,123 @@
+
+a{
+  text-decoration: none;
+}
+.Intro{
+  font-family: Arial;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+ul{
+  align-content: center;
+}
+body{
+  background-image: url("stand.jpg");
+  background-size: cover;
+}
+div{
+  background-color: white;
+  border-style: solid;
+}
+.Query{
+  padding:0;
+  position: absolute;
+  top:  80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.Title{
+  position: absolute;
+  top:  20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.Table{
+  border-style: solid;
+  position: absolute;
+  top:  45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: Arial;
+}
+
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+
+  display: inline;
+}
+
+li a{
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  font-family: Arial Black;
+}
+li a:hover{
+  background-color: #cd0000;
+
+}
+.active {
+  background-color: #cd0000;
+}
+body {
+  background-color :#f5f5f5;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial;
+}
+h1 {
+  padding: 0;
+  color: black;
+  font-size: 35px;
+  letter-spacing: -2px;
+  text-align: center;
+  font-family: Arial Black;
+}
+h8 {
+  color: #cd0000;
+  font-size: 16px;
+  letter-spacing: -2px;
+  text-align: center;
+  font-family: Arial Black;
+}
+.images{
+
+
+   width:  60px;
+   height: 260px;
+   background-position: 50% 50%;
+   background-repeat:   no-repeat;
+   background-size:     cover;
+}
+.description{
+   color:#cd0000;
+   font-family:Arial Black;
+   bottom:0;
+ }
+ button{
+    font-family: Arial Black;
+    color:#cd0000;
+    padding:0;
+    font-size: 15px;
+    background-color :#f5f5f5;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+button:hover{
+
+    color: white;
+    background-color: #cd0000;
+
+}
